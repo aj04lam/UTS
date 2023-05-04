@@ -1,0 +1,125 @@
+body{
+   border: 10px none #1e59d8 ;
+   margin: 50px 50px 50px 50px;
+   padding: 10px 20px 20px 20px;
+   font-family: 'Times New Roman', Times, serif;
+}
+
+.container{
+    width: 960px;
+    margin: auto;
+    background-color: #ffffff;
+    border: 10px solid #1e59d8 ;
+}
+
+
+.one{
+	background-color : rgb(1, 1, 156);
+	position: fixed;
+	height: 40px;
+	width: 100%;
+	top: 0;
+	right: 0;
+	z-index: 999;
+}
+
+.one p{
+    color: #fff7f7;
+	text-decoration: none;
+	font-weight: bold;
+    padding-left: 200px;
+}
+
+.one a{
+    color: #fff7f7;
+    font-weight: bold;
+}
+
+.header{
+	padding: 20px;
+	padding-bottom: 10px;
+}
+
+.header .judul{
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.hero{
+	height: 310px;
+	background-image: url(img/wokwok.jpg);
+	background-size: cover;
+	background-position: 0 -120px;
+	border-bottom: 5px solid rgb(250, 139, 135);
+	border-top: 5px solid rgb(250, 139, 135);
+}
+
+.main{
+	width: 600px;
+	padding: 20px;
+	box-sizing: border-box;
+	float: left;
+}
+
+.main h2{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.main .penulis a{
+	color: salmon;
+	text-decoration: none;
+}
+
+.main p{
+	margin-bottom: 20px;
+	font-size: 14px;
+}
+
+.sidebar{
+	width: 300px;
+	float: right;
+	padding: 20px;
+}
+
+.sidebar h3{
+	font-weight: bold;
+}
+
+.sidebar img{
+	width: 60px;
+	height: 60px;
+}
+
+.footer{
+	background-color: black;
+	padding: 10px;
+}
+
+.footer .copy{
+	color: white;
+	text-align: center;
+	font-size: 12px;
+}
+
+
+
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
+
+span{
+    display: inline-block;
+    background-color: #1e59d8;
+}
